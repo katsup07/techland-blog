@@ -7,7 +7,7 @@
       <section class="featured-posts">
         <PostPreview
           id="1"
-          thumbnail="./images/mobo.jpg"
+          thumbnail="./assets/images/mobo.jpg"
           title="Motherboards"
           previewText="The new rx753 from..."
         />
@@ -15,7 +15,7 @@
       <section class="featured-posts">
         <PostPreview
           id="2"
-          thumbnail="./images/pc.jpg"
+          thumbnail="./assets/images/pc.jpg"
           title="Monitors"
           previewText="Buying a 4k monitor buyers..."
         />
@@ -23,7 +23,7 @@
       <section class="featured-posts">
         <PostPreview
           id="3"
-          thumbnail="./images/coding.jpg"
+          thumbnail="./assets/images/coding.jpg"
           title="Programming"
           previewText="Nuxt 3.0 has..."
         />
@@ -37,6 +37,7 @@ export default {
   components: {
     PostPreview,
   },
+  layout: 'default',
 };
 </script>
 
@@ -56,8 +57,11 @@ export default {
   position: relative;
   padding: 30px;
   box-sizing: border-box;
+  background-image:url('/assets/images/smart-phone.jpg');
   background-position: center;
   background-size: cover;
+  border-radius: 0.2rem;
+  margin: 0;
 }
 
 .intro h1 {
