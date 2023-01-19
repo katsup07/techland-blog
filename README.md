@@ -1,6 +1,6 @@
 # blog-project
 
-## Build Setup
+## Build Setu
 
 ```bash
 # install dependencies
